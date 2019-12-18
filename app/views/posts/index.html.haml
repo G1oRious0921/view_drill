@@ -1,0 +1,16 @@
+.Header
+  .Header__text
+  SNS
+.Contents
+  .Contents__text
+    follow me!
+  -# link_toをdo使ってブロック化したら、Facebookとかの表示名は中に書く。
+  =link_to "https://www.facebook.com/", class: "contents_btn" do
+    = icon('fab', 'facebook-square')
+    Facebook
+  =link_to "https://twitter.com/", class: "contents_btn" do
+    = icon('fab', 'twitter')
+    Twitter
+  =link_to "https://www.instagram.com/", class: "contents_btn" do
+    = icon('fab', 'instagram')
+    Instagram
